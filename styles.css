@@ -18,14 +18,33 @@ nav ul li a {
     color: var(--spotify-white);
 }
 
+h1,
 h2 {
     color: var(--spotify-green);
+}
+
+
+a {
+    color: var(--spotify-white);
+}
+
+p {
+    margin-bottom: 1.5em;
 }
 
 footer {
     background-color: var(--spotify-black);
     color: var(--spotify-white);
 }
+
+footer {
+    background-color: #1DB954;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+
 
 /* login and signup */
 .login-button,
@@ -45,15 +64,7 @@ footer {
     background-color: #0c8c3f;
 }
 
-
 /* Footer */
-footer {
-    background-color: #1DB954;
-    color: #FFFFFF;
-    padding: 20px;
-    text-align: center;
-}
-
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -81,12 +92,6 @@ footer {
     text-decoration: none;
 }
 
-/* Cart page */
-
-
-h1 {
-    color: var(--spotify-green);
-}
 
 .table {
     background-color: var(--spotify-white);
@@ -113,14 +118,6 @@ h1 {
     border-color: #0c8c3f;
 }
 
-/* Signup */
-
-
-
-.card {
-    background-color: var(--spotify-green);
-}
-
 .form-control {
     background-color: var(--spotify-white);
     color: var(--spotify-black);
@@ -136,96 +133,14 @@ h1 {
     border-color: #0c8c3f;
 }
 
-a {
-    color: var(--spotify-white);
-}
-
-/* Login */
-
-
-.card {
-    background-color: var(--spotify-green);
-}
-
-
-.btn-success {
-    background-color: var(--spotify-green);
-    border-color: var(--spotify-green);
-}
-
-.btn-success:hover {
-    background-color: #0c8c3f;
-    border-color: #0c8c3f;
-}
-
-a {
-    color: var(--spotify-white);
-}
-
-/* contact */
-
-h1 {
-    color: var(--spotify-green);
-}
-
-.btn-primary {
-    background-color: var(--spotify-green);
-    border-color: var(--spotify-green);
-}
-
-.btn-primary:hover {
-    background-color: #0c8c3f;
-    border-color: #0c8c3f;
-}
-
-/* About */
-body {
-    background-color: var(--spotify-black);
-    color: var(--spotify-white);
-}
-
-h1 {
-    color: var(--spotify-green);
-}
-
-p {
-    margin-bottom: 1.5em;
-}
-
-/* gift card */
-
-body {
-    background-color: var(--spotify-black);
-    color: var(--spotify-white);
-}
-
-h1 {
-    color: var(--spotify-green);
-}
-
-.card {
-    background-color: var(--spotify-white);
-    color: var(--spotify-black);
-}
-
-.btn-primary {
-    background-color: var(--spotify-green);
-    border-color: var(--spotify-green);
-}
-
-.btn-primary:hover {
-    background-color: #0c8c3f;
-    border-color: #0c8c3f;
-}
-
 /* playlist */
 .card {
     background-color: var(--spotify-black);
     border-color: var(--spotify-green);
     color: var(--spotify-white);
-  }
-  
-  .card-title,
-  .card-text {
+}
+
+.card-title,
+.card-text {
     color: var(--spotify-white);
-  }
+}
