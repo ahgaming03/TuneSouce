@@ -6,19 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
-    <!-- <style>
-        .bg-violet-aqua {
-            background-color: #9C54D5;
-        }
 
-        .bg-support {
-            background-color: #462964;
-        }
-
-        .bg-accent {
-            background-color: #5EE2F0;
-        }
-    </style> -->
     <title>Home Page</title>
 </head>
 
@@ -26,7 +14,11 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-violet-aqua">
             <div class="container">
-                <a class="navbar-brand" href="#">Your Logo</a>
+                <a class="navbar-brand" href="/">
+                    <img src="./img/Logo.png" alt="logo" width="30" height="30"
+                        class="d-inline-block align-text-top">
+                    Tune Source
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -56,10 +48,10 @@
                             <a class="nav-link" href="#">Cart</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Login</a>
+                            <a class="nav-link login-button" href="#">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sign Up</a>
+                            <a class="nav-link signup-button" href="#">Sign Up</a>
                         </li>
                     </ul>
                 </div>
@@ -72,7 +64,7 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="container text-center">
                 <h1 class="display-4">Welcome to Tune Source</h1>
-                <p class="lead">Discover and download your favorite image.</p>
+                <p class="lead">Discover and download your favorite music.</p>
             </div>
         </div>
 
@@ -103,44 +95,44 @@
                     </div>
                     <div class="col-lg-4 mb-4">
                         <div class="card album-card">
-                            <img src="./img/den1.png" alt="image">
+                            <img src="./img/Soobin hoang son.jpg" alt="image">
                             <div class="card-body">
-                                <h5 class="card-title">Nấu ăn cho em</h5>
-                                <p class="card-text">Đen</p>
-                                <p class="card-text">Cost: $1.99</p>
+                                <h5 class="card-title">Đi để trở về</h5>
+                                <p class="card-text">Soobin Hoàng Sơn</p>
+                                <p class="card-text">Cost: $0.49</p>
                                 <a href="#" class="btn btn-primary">Buy Now</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 mb-4">
                         <div class="card album-card">
-                            <img src="./img/den1.png" alt="image">
+                            <img src="./img/Hoa minzy.jpg" alt="image">
                             <div class="card-body">
-                                <h5 class="card-title">Nấu ăn cho em</h5>
-                                <p class="card-text">Đen</p>
-                                <p class="card-text">Cost: $1.99</p>
+                                <h5 class="card-title">Thị mầu</h5>
+                                <p class="card-text">Hoà Minzy</p>
+                                <p class="card-text">Cost: $2.49</p>
                                 <a href="#" class="btn btn-primary">Buy Now</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 mb-4">
                         <div class="card album-card">
-                            <img src="./img/den1.png" alt="image">
+                            <img src="./img/Hoang Thuy Linh.jpg" alt="image">
                             <div class="card-body">
-                                <h5 class="card-title">Nấu ăn cho em</h5>
-                                <p class="card-text">Đen</p>
-                                <p class="card-text">Cost: $1.99</p>
+                                <h5 class="card-title">See tình</h5>
+                                <p class="card-text">Hoàng Thuỳ Linh</p>
+                                <p class="card-text">Cost: $0.99</p>
                                 <a href="#" class="btn btn-primary">Buy Now</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 mb-4">
                         <div class="card album-card">
-                            <img src="./img/den1.png" alt="image">
+                            <img src="./img/Son tung.jpg" alt="image">
                             <div class="card-body">
-                                <h5 class="card-title">Nấu ăn cho em</h5>
-                                <p class="card-text">Đen</p>
-                                <p class="card-text">Cost: $1.99</p>
+                                <h5 class="card-title">Making my way</h5>
+                                <p class="card-text">Sơn Tùn m-tp</p>
+                                <p class="card-text">Cost: $2.99</p>
                                 <a href="#" class="btn btn-primary">Buy Now</a>
                             </div>
                         </div>
@@ -151,7 +143,23 @@
     </main>
 
 
-    <!-- Rest of your page content -->
+    <footer>
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="#"><img src="./img/Logo.png" alt="logo"></a>
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <p>&copy; 2023 My Music App. All rights reserved.</p>
+      </footer>
+      
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
